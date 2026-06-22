@@ -282,7 +282,7 @@ function nextQ(){
       document.getElementById('endscreen').style.display='';
       document.getElementById('escore').textContent=sc+'/'+TOTAL;
       const pct=Math.round(sc/TOTAL*100);
-      document.getElementById('endmsg').textContent=pct>=80?'¡Muy bien, Ofira! 🎉':pct>=60?'Buen trabajo, a seguir practicando.':'Hay que repasar un poco más.';
+      document.getElementById('endmsg').textContent=pct>=80?'¡Muy bien! 🎉':pct>=60?'Buen trabajo, a seguir practicando.':'Hay que repasar un poco más.';
     }
   }else{showQ();}
 }
